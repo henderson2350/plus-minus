@@ -7,10 +7,10 @@ public class plusMinus {
         //count how many zeros
         //count how many totals
 
-        float negCount = 0;
-        float posCount = 0;
-        float zeroCount = 0;
-        float totalCount = arr.size();
+        double negCount = 0;
+        double posCount = 0;
+        double zeroCount = 0;
+        double totalCount = arr.size();
 
         for (int i=0; i<arr.size(); i++) {
             if (arr.get(i) < 0) {
